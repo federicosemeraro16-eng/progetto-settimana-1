@@ -108,7 +108,7 @@ section img{
 
 /* section intro class */
 
-#chi-sono{
+#intro-section{
   margin-top: -23px;
 }
 
@@ -198,10 +198,12 @@ section table thead{
   width: 100%;
   border:1px solid #d6cfbf;
   border-radius: 5px;
+  height: 30px;
 }
 
 #contatti form #acceptTerms{
   width: 20%;
+  height: 10px;
 }
 
 #contatti button{
