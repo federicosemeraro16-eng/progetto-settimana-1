@@ -161,8 +161,52 @@ section table thead{
 
 
 
+/* sezione progetti */
+
+#progetti .card{
+  margin-bottom: 30px;
+}
 
 
+#progetti div{
+  margin-top: 50x;
+  text-align: end;
+  width: 100%;
+}
+
+/* sezione contatti */
+
+
+#contatti form select,
+#contatti form input,
+#contatti form textarea{
+  width: 100%;
+  border:1px solid #d6cfbf;
+  border-radius: 5px;
+}
+
+#contatti form #acceptTerms{
+  width: 20%;
+}
+
+#contatti button{
+  width: 100px;
+  height: 30px;
+  background-color: hsl(220, 60%, 30%);
+  color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+footer{
+  background-color: hsl(220, 40%, 15%);
+  width: 100%;
+  text-align: center;
+}
+
+footer i{
+  color: rgba(255, 255, 255, 0.08);
+}
 
 /* pseudoelementi */
 
@@ -195,13 +239,6 @@ h2::before{
   content: '🆕';
 }
 
-#progetti div{
-  color: red;
-  margin-top: 50x;
-  text-align: end;
-  width: 100%;
-}
-
 
 /* effetti */
 
@@ -209,3 +246,16 @@ nav ul li a:hover{
   color: hsl(45, 90%, 60%);
   background-color: hsl(45, 90%, 60%);
 }
+
+#contatti button{
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.18);
+  background-color: hsl(220, 60%, 45%);
+  
+}
+
+footer i:hover{
+  background-color:hsl(45, 90%, 60%);
+  color: hsl(220, 60%, 20%);
+}
+
+
