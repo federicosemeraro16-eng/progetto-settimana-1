@@ -1,25 +1,292 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="it">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio Federico Semeraro</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-</head>
-<body>
-  <header>
-    <h1>Federico Semeraro</h1>
-    <p>Studente Full-Stack<span></span>in formazione su Epicode 2026</p>
-    <nav>
-      <ul>
-        <li>Chi Sono</li>
-        <li>Competenze</li>
-        <li>Esperienze</li>
-        <li>Progetti</li>
-        <li>Contatti</li>
-      </ul>
-    </nav>
-  </header>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Federico Semeraro</title>
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+    />
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Federico Semeraro</h1>
+      <p>
+        Studente Full-Stack in
+        <span class="material-symbols-outlined">code_off</span>formazione su
+        Epicode 2026
+      </p>
+      <nav>
+        <ul>
+          <li><a href="#chi-soono">Chi Sono</a></li>
+          <li><a href="#chi-soono">Competenze</a></li>
+          <li><a href="#chi-soono">Esperienze</a></li>
+          <li><a href="#chi-soono">Progetti</a></li>
+          <li><a href="#chi-soono">Contatti</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- Prima section Chi Sono -->
+      <section class="chi-sono" id="chi-sono">
+        <h2>Chi Sono</h2>
+        <img src="assets/immagini/foto-profilo.jpg" alt="foto-profilo" />
+        <p>
+          Mi chiamo Federico Semeraro e sto imparando a programmare. Studio
+          sviluppo web con <strong>Epicode</strong> ed ogni giorno aggiungo
+          qualcosa a questa pagina applicando i concetti man mano che li
+          incontro a lezione.
+        </p>
+        <p>
+          Vivo a Massafra. Ho un'esperienza lavorativo come
+          <i>Customer Success Manager</i>.Cerco un primo ruolo come sviluppatore
+          frontend in un team che faccia code review mentoring.
+        </p>
+      </section>
+
+      <!-- Seconda section competenze -->
+      <section>
+        <h2>Competenze</h2>
+        <p>
+          Le tecnologie con cui mi sento più sicuro al termine della prima
+          settimana di corso. Le percentuali sono valutazioni,non
+          certificazioni.
+        </p>
+        <!-- Prima tabella livello raggiunto -->
+        <table>
+          <caption>
+            Stack tecnico - autovalutazione
+          </caption>
+          <thead>
+            <tr>
+              <th>Tecnologia</th>
+              <th>Livello</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <span class="material-symbols-outlined"> html </span>
+                <p class="row-table-title">HTML5 semantico</p>
+              </br>
+                <p class="row-table-subtitle">
+                  Tag strutturali,attributi,accessibilità di base,form con
+                  validazione
+                </p>
+              </td>
+              <td>
+                <div class="progress-bar"></div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span class="material-symbols-outlined"> css </span>
+                <p class="row-table-title">CSS3</p>
+              </br>
+                <p  class="raw-table-subtitle">
+                  Selettori,pseudo-classi,box-model,float,pseudo-elementi,Google-font
+                </p>
+              </td>
+              <td>
+                <div class="progress-bar"></div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span class="material-symbols-outlined"> commit </span>
+                <p class="row-table-title">Git e Github</p>
+                </br>
+                <p class="raw-table-subtitle">
+                  Init,add,commit,push,repository remoti,pubblicazione su GitHub
+                  Pages
+                </p>
+              </td>
+              <td>
+                <div class="progress-bar"></div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span class="material-symbols-outlined"> terminal_2 </span>
+                <p class="row-table-title">Linea di comando</p>
+                </br>
+                <p class="raw-table-subtitle">
+                  Navigazione tra cartelle,gestione file,comandi, base di shell
+                  su macOS e Linux
+                </p>
+              </td>
+              <td>
+                <div class="progress-bar"></div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span class="material-symbols-outlined"> html </span>
+                <p class="table-row-title">Markdown e documentazione</p>
+                </br>
+                <p class="raw-table-subtitle">
+                  README,documentazione tecnica, scrittura chiara per altri
+                  sviluppatori
+                </p>
+              </td>
+              <td>
+                <div class="progress-bar"></div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <!-- section Esperienza -->
+      <section>
+        <h2>Esperienze</h2>
+        <p>Un riepilogo formativo e lavorativo recente</p>
+        <table>
+          <caption>
+            Esperienze formative e lavorative
+          </caption>
+          <thead>
+            <tr>
+              <th>Anno</th>
+              <th>Ruolo</th>
+              <th>Azienda/scuola</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2026</td>
+              <td>Studente Full Stack</td>
+              <td>Epicode</td>
+            </tr>
+            <tr>
+              <td>2014-2026</td>
+              <td>Customer Success Manager</td>
+              <td>Quandoo Italy s.r.l.</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <!-- sezione progetti -->
+      <section>
+        <h2>Progetti</h2>
+        <p>
+          I lavori fatti durante le prime settimane di corso. Ogni card ha un
+          link al repository
+        </p>
+        <!-- section class card -->
+        <section class="card">
+          <h3>Pagina ricetta</h3>
+          <p>
+            Una pagina con titolo,ingredienti e procedura. Esercizio di markup
+            semantico applicato ad un contenuto reale.
+          </p>
+        </section>
+        <section class="card">
+          <h3>Card di presentazione</h3>
+          <p>
+            Una pagina con titolo,ingredienti e procedura. Esercizio di markup
+            semantico applicato ad un contenuto reale.
+          </p>
+        </section>
+        <section class="card">
+          <h3>Portfolio personale</h3>
+          <p>
+            Una pagina con titolo,ingredienti e procedura. Esercizio di markup
+            semantico applicato ad un contenuto reale.
+          </p>
+        </section>
+        <a href="javascript:void(0)"> -> Tutti i progetti in dettaglio </a>
+      </section>
+
+      <!-- sezione contattami -->
+      <section>
+        <h2>Contattami</h2>
+        <p>
+          Compila il form per scrivermi. Rispondo entro 24 ore nei giorni
+          lavorativi.
+        </p>
+        <form>
+          <div>
+            <label for="nameField">Nome:</label>
+            <br />
+            <input
+              type="text"
+              placeholder="il tuo nome"
+              title="il tuo nome"
+              id="nameField"
+              name="nameField"
+              required
+            />
+          </div>
+          <br />
+          <div>
+            <label for="emailField">Email:</label>
+            <br />
+            <input
+              type="email"
+              name="emailField"
+              id="emailField"
+              placeholder="Inserisci la tua email"
+              title="Inserisci la tua email"
+              required
+            />
+          </div>
+          <br />
+          <div>
+            <label for="reasonContact">Motivo del contatto:</label>
+            <br />
+            <select id="reasonContact">
+              <option disabled></option>
+              <option value="lavoro">Proposta di Lavoro</option>
+              <option value="freelance">Collaborazione Freelance</option>
+              <option value="chiacchiere">Quattro chiacchiere</option>
+            </select>
+          </div>
+          <br />
+          <div>
+            <label for="dateField">Data preferita per la risposta:</label>
+            <br />
+            <input
+              type="date"
+              required
+              name="dateField"
+              title="Inserisci la data desiderata"
+              id="dateField"
+            />
+          </div>
+          <br />
+          <div>
+            <label for="reasonCall">Messaggio:</label>
+            <br />
+            <textarea
+              placeholder="scrivi qui il tuo messaggio"
+              rows="4"
+              cols="26"
+              id="reasonCall"
+              name="reasonCall"
+              title="Inserisci qui il motivo della tua richiesta di contatto"
+              required
+            ></textarea>
+            <br />
+            <div>
+              <input
+                type="checkbox"
+                name="acceptTerms"
+                id="acceptTerms"
+                title="Si prega di accettare i termini"
+              />
+              <label for="acceptTerms">Accetto di essere ricontattato:</label>
+            </div>
+            <br />
+            <div>
+              <button type="submit">Invia</button>
+            </div>
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
 </html>
