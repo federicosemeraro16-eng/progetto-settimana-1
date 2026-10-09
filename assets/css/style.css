@@ -1,5 +1,45 @@
+/* reset della pagina totale */
+
+
 *,
 *::after,
 *::before{
   box-sizing: border-box;
 }
+
+html,
+body{
+  margin: 0;
+  padding: 0;
+   font-family: 'Inter', Arial, sans-serif;
+   font-size: 1.2rem;
+   line-height: 1.7;
+   color: #2b2b2b;
+   background-color: #f4f1ec;
+}
+/* header style */
+header{
+  text-align: center;
+  color: #fff;
+  text-shadow: ;
+  width: 100%;
+  background-image: url('../immagini/header-bg.webp');
+  background-position: center;
+  background-size: cover;
+  height: 40%;
+  border-bottom: 2px solid  hsl(45, 90%, 60%);
+  text-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+}
+
+h1{
+  margin-top: 0;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  font-size: 0.8rem;
+}
+
