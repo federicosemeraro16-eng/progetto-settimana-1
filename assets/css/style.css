@@ -78,15 +78,17 @@ nav ul li a{
 main{
   width: 100%;
   max-width: 920px;
+  margin: 0 auto;
   
 }
 
 /* section generali */
 
 section{
+  margin-top: 40px;
   background-color: #fff;
   width: 80%;
-  margin: 0 auto;
+  
   border: 1px solid #e6e0d3;
   border-radius: 5px;
   padding: 15px;
@@ -102,6 +104,12 @@ section img{
   border: 5px solid hsl(45, 90%, 60%);
   float: left;
   margin-right: 15px;
+}
+
+/* section intro class */
+
+#chi-sono{
+  margin-top: -23px;
 }
 
 
@@ -127,7 +135,7 @@ table caption{
 
 section table tbody td,
 section table thead th{
-  width: 50%;
+  width: 30%;
 }
 section table tbody td p{
   display: inline;
@@ -159,7 +167,9 @@ section table thead{
 
 /* sezione esperienze */
 
-
+#esperienze table{
+  width: 100%;
+}
 
 /* sezione progetti */
 
@@ -172,6 +182,11 @@ section table thead{
   margin-top: 50x;
   text-align: end;
   width: 100%;
+}
+
+#progetti a{
+  text-decoration: underline;
+  color: #1f3d7a;
 }
 
 /* sezione contatti */
@@ -243,11 +258,11 @@ h2::before{
 /* effetti */
 
 nav ul li a:hover{
-  color: hsl(45, 90%, 60%);
+  color: hsl(220, 60%, 20%);
   background-color: hsl(45, 90%, 60%);
 }
 
-#contatti button{
+#contatti form button:hover{
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.18);
   background-color: hsl(220, 60%, 45%);
   
