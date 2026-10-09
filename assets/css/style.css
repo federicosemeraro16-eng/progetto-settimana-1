@@ -80,7 +80,7 @@ nav ul li i{
 
 
 main{
-  width: 100%;
+  padding: 40px 20px;
   max-width: 920px;
   margin: 0 auto;
   
@@ -91,7 +91,7 @@ main{
 section{
   margin-top: 40px;
   background-color: #fff;
-  width: 80%;
+  width: 100%;
   
   border: 1px solid #e6e0d3;
   border-radius: 5px;
