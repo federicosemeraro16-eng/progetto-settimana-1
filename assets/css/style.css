@@ -45,13 +45,14 @@ header{
   background-position-y:bottom ;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 40%;
+  height: 55vh;
   border-bottom: 2px solid  hsl(45, 90%, 60%);
   text-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
 }
 
 h1{
   margin-top: 0;
+  padding-top:40px;
 }
 
 header p{
@@ -59,7 +60,9 @@ header p{
   color: #f0e7c8;
 }
 
-
+nav ul{
+  margin-top: 65px;
+}
 
 nav ul li {
   list-style-type: none;
@@ -115,7 +118,7 @@ section img{
 /* section intro class */
 
 #intro-section{
-  margin-top: -23px;
+  margin-top: -153px;
 }
 
 
