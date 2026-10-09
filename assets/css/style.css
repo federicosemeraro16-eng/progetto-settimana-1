@@ -59,6 +59,10 @@ header p{
   color: #f0e7c8;
 }
 
+#nav-span{
+  font-size:1 rem;
+}
+
 nav ul li {
   list-style-type: none;
   display: inline-block;
@@ -232,6 +236,7 @@ footer{
   margin-top: 30px;
   background-color: hsl(220, 40%, 15%);
   width: 100%;
+  height: 20vh;
   text-align: center;
 }
 
@@ -265,11 +270,11 @@ h2::before{
 }
 
 #progetti .card:nth-child(odd){
-  border-left: 2px solid hsl(220, 60%, 30%);
+  border-left: 4px solid hsl(220, 60%, 30%);
 }
 
 #progetti .card:nth-child(even){
-  border-left: 2px solid hsl(45, 90%, 50%);
+  border-left: 4px solid hsl(45, 90%, 50%);
 }
 
 #progetti .card:first-of-type h3::after {
