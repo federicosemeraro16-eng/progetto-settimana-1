@@ -222,6 +222,10 @@ footer{
   text-align: center;
 }
 
+footer p{
+  color: #fff;
+}
+
 footer i{
   color: rgba(255, 255, 255, 0.08);
   padding: 10px;
