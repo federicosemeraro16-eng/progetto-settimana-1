@@ -157,8 +157,17 @@ section table tbody td p{
   height: 12px;
   background: linear-gradient(90deg, hsl(45, 90%, 60%));
   border-radius: 6px;
-  box-shadow: 0 0 6px hsl(45, 100%, 60%);;
+  box-shadow: 0 0 6px hsl(45, 100%, 60%);
 
+}
+
+#middle-progress{
+
+  width: 70%;
+  height: 12px;
+  background: linear-gradient(90deg, hsl(45, 90%, 60%));
+  border-radius: 6px;
+  box-shadow: 0 0 6px hsl(45, 100%, 60%);;
 }
 
 section table thead{
