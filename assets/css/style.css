@@ -15,153 +15,176 @@
 
 *,
 *::after,
-*::before{
+*::before {
   box-sizing: border-box;
 }
 
 html,
-body{
+body {
   margin: 0;
   padding: 0;
-   font-family: 'Inter', Arial, sans-serif;
-   font-size: 1rem;
-   line-height: 1.5;
-   color: #2b2b2b;
-   background-color: #f4f1ec;
+  font-family: 'Inter', Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #2b2b2b;
+  background-color: #f4f1ec;
 }
 
-h2{
+h2 {
   color: hsl(220, 60%, 25%);
 }
 
 
 /* header style */
-header{
+header {
   text-align: center;
   color: #fff;
   width: 100%;
   background-image: url('../immagini/header-bg.webp');
   background-position: center;
-  background-position-y:bottom ;
+  background-position-y: bottom;
   background-size: cover;
   background-repeat: no-repeat;
   height: 55vh;
-  border-bottom: 2px solid  hsl(45, 90%, 60%);
+  border-bottom: 2px solid hsl(45, 90%, 60%);
   text-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
 }
 
-h1{
+h1 {
   margin-top: 0;
-  padding-top:40px;
+  padding-top: 40px;
 }
 
-header p{
+header p {
   font-style: italic;
   color: #f0e7c8;
 }
 
-nav ul{
+nav {
+  width: 100%;
+  margin: 0 auto;
+}
+
+nav ul {
   margin-top: 65px;
+  text-align: center;
 }
 
 nav ul li {
   list-style-type: none;
-  display: inline-block;
-  margin-right: 15px;
+  display: inline;
   margin-bottom: 15px;
-  font-size: 0.8rem;
+  font-size: 0.4em;
 }
 
-nav ul li a{
-  border:1px solid rgba(255, 255, 255, 0.3);
+nav ul li a {
+  border: 1px solid rgba(255, 255, 255, 0.3);
   color: #fff;
   padding: 10px;
   border-radius: 5px;
 }
+
 button i,
-nav ul li i{
+nav ul li i {
   margin-right: 10px;
 }
 
 
-main{
-  padding: 40px 20px;
+main {
+  padding: 16px;
+  width: 100%;
   max-width: 920px;
   margin: 0 auto;
-  
+
 }
 
 /* section generali */
 
-section{
+section {
   margin-top: 40px;
   background-color: #fff;
   width: 100%;
-  
+
   border: 1px solid #e6e0d3;
   border-radius: 5px;
-  padding: 15px;
+  padding: 16px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
 }
 
 
 /* DETTAGLI SECTION */
 
-section img{
-  width: 150px;
+section img {
+
   border-radius: 50%;
   border: 5px solid hsl(45, 90%, 60%);
-  float: left;
+  /* float: left; */
   margin-right: 15px;
+  max-width: 30%;
+  height: auto;
+
+}
+
+.img-container {
+  width: 100%;
+  text-align: center;
+  max-width: 576px;
 }
 
 /* section intro class */
 
-#intro-section{
-  margin-top: -153px;
+#intro-section {
+  margin-top: -80px;
 }
 
 
-section table{
+section table {
   width: 100%;
+  min-width: 300px;
   margin: 0 auto;
   font-size: 0.8rem;
 }
 
-table{
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+}
+
+table {
   border: 1px solid #ece6d8;
 }
 
-table thead tr th{
+table thead tr th {
   color: hsl(220, 60%, 25%);
   background-color: #e6e0d3;
 }
 
-table caption{
-  color:hsl(220, 30%, 40%);
+table caption {
+  color: hsl(220, 30%, 40%);
   text-align: start;
 }
 
 section table tbody td,
-section table thead th{
+section table thead th {
   width: 30%;
 }
-section table tbody td p{
+
+section table tbody td p {
   display: inline;
 }
 
 
-.row-table-title{
+.row-table-title {
   font-weight: 600;
 }
 
-.raw-table-subtitle{
-  font-size:0.6rem;
+.raw-table-subtitle {
+  font-size: 0.6rem;
   font-style: italic;
   color: #2b2b2b;
 }
 
-.progress-bar{
+.progress-bar {
   width: 100%;
   height: 12px;
   background: linear-gradient(90deg, hsl(45, 90%, 60%));
@@ -170,39 +193,40 @@ section table tbody td p{
 
 }
 
-#middle-progress{
+#middle-progress {
 
   width: 70%;
   height: 12px;
   background: linear-gradient(90deg, hsl(45, 90%, 60%));
   border-radius: 6px;
-  box-shadow: 0 0 6px hsl(45, 100%, 60%);;
+  box-shadow: 0 0 6px hsl(45, 100%, 60%);
+  ;
 }
 
-section table thead{
+section table thead {
   background-color: #2b2b2b;
 }
 
 /* sezione esperienze */
 
-#esperienze table{
+#esperienze table {
   width: 100%;
 }
 
 /* sezione progetti */
 
-#progetti .card{
+#progetti .card {
   margin-bottom: 30px;
 }
 
 
-#progetti div{
+#progetti div {
   margin-top: 50x;
   text-align: end;
   width: 100%;
 }
 
-#progetti a{
+#progetti a {
   text-decoration: underline;
   color: #1f3d7a;
 }
@@ -212,32 +236,38 @@ section table thead{
 
 #contatti form select,
 #contatti form input,
-#contatti form textarea{
+#contatti form textarea {
   width: 100%;
-  border:1px solid #d6cfbf;
+  border: 1px solid #d6cfbf;
   border-radius: 5px;
   height: 30px;
+  font-size: 16px;
 }
 
-#contatti form textarea{
+#contatti label {
+  font-size: 1rem;
+
+}
+
+#contatti form textarea {
   height: 150px;
 }
 
-#contatti form #acceptTerms{
-  width: 20%;
+#contatti form #acceptTerms {
+  width: auto;
   height: 10px;
 }
 
-#contatti button{
-  width: 100px;
-  height: 30px;
+#contatti button {
+  width: 100%;
+  height: 35px;
   background-color: hsl(220, 60%, 30%);
   color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
 }
 
-footer{
+footer {
   margin-top: 30px;
   background-color: hsl(220, 40%, 15%);
   width: 100%;
@@ -245,11 +275,11 @@ footer{
   text-align: center;
 }
 
-footer p{
+footer p {
   color: #fff;
 }
 
-footer i{
+footer i {
   color: rgba(255, 255, 255, 0.08);
   padding: 10px;
   border-radius: 50px;
@@ -259,26 +289,22 @@ footer i{
 
 h1::first-letter,
 h2::first-letter,
-h3::first-letter{
+h3::first-letter {
   font-family: 'Playfair Display', Georgia, serif;
 }
 
-.chi-sono > p:first-of-type::first-letter {
-  font-size: 3rem;
-  color: #1f3d7a;
-  font-weight: 800;
-}
 
-h2::before{
-  content:'\2756';
+
+h2::before {
+  content: '\2756';
   color: hsl(45, 90%, 50%);
 }
 
-#progetti .card:nth-child(odd){
+#progetti .card:nth-child(odd) {
   border-left: 4px solid hsl(220, 60%, 30%);
 }
 
-#progetti .card:nth-child(even){
+#progetti .card:nth-child(even) {
   border-left: 4px solid hsl(45, 90%, 50%);
 }
 
@@ -289,20 +315,68 @@ h2::before{
 
 /* effetti */
 
-nav ul li a:hover{
+nav ul li a:hover {
   color: hsl(220, 60%, 20%);
   background-color: hsl(45, 90%, 60%);
 }
 
-#contatti form button:hover{
+#contatti form button:hover {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.18);
   background-color: hsl(220, 60%, 45%);
-  
+
 }
 
-footer i:hover{
-  background-color:hsl(45, 90%, 60%);
+footer i:hover {
+  background-color: hsl(45, 90%, 60%);
   color: hsl(220, 60%, 20%);
 }
 
 
+@media screen and (min-width:768px) {
+
+  header {
+    padding: 60px 20px 40px;
+  }
+
+  nav ul li{
+    font-size: 0.6rem;
+    margin:0 10px;
+  }
+
+  #contatti form select,
+  #contatti form input,
+  #contatti form textarea {
+    width: 60%;
+  }
+
+  #contatti button{
+    width: 30%;
+  }
+
+  section img {
+    float: left;
+  }
+
+  .chi-sono>p:first-of-type::first-letter {
+    font-size: 3rem;
+    color: #1f3d7a;
+    font-weight: 800;
+    display: block;
+  }
+
+
+}
+
+@media screen and (min-width:1200){
+
+  h1{
+    font-size: 2.5rem;
+  }
+
+  h2{
+    font-size: 2rem;
+  }
+
+ 
+  
+}
