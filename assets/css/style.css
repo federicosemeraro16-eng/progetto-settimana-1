@@ -131,6 +131,11 @@ section img {
   max-width: 576px;
 }
 
+.img-container img{
+  width: 100%;
+  text-align: center;
+}
+
 /* section intro class */
 
 #intro-section {
