@@ -267,9 +267,9 @@ section table thead {
 /* sezione contatti */
 
 
-#contatti form select,
-#contatti form input,
-#contatti form textarea {
+.contatti form select,
+.contatti form input,
+.contatti form textarea {
   width: 100%;
   border: 1px solid #d6cfbf;
   border-radius: 5px;
@@ -277,21 +277,21 @@ section table thead {
   font-size: 16px;
 }
 
-#contatti label {
+.contatti label {
   font-size: 1rem;
 
 }
 
-#contatti form textarea {
+.contatti form textarea {
   height: 150px;
 }
 
-#contatti form #acceptTerms {
+.contatti form #acceptTerms {
   width: auto;
   height: 10px;
 }
 
-#contatti button {
+.contatti button {
   width: 100%;
   font-size: 1em;
   height: 35px;
@@ -378,17 +378,36 @@ h2::before {
   padding: 2em;
   border-radius: 10px;
   max-width: 30rem;
+  max-height: 40rem;
+  overflow: scroll;
 
 }
 
+#closeModalBtn{
+  position: absolute;
+  top: 20px;
+  right:0;
+  color: #fff;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+}
+
 /* effetti */
+
+#closeModalBtn:hover{
+  background-color: red;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.18);
+}
 
 nav ul li a:hover {
   color: hsl(220, 60%, 20%);
   background-color: hsl(45, 90%, 60%);
 }
 
-#contatti form button:hover {
+.contatti form button:hover {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.18);
   background-color: hsl(220, 60%, 45%);
 
@@ -416,13 +435,13 @@ footer i:hover {
     margin:0 10px;
   }
 
-  #contatti form select,
-  #contatti form input,
-  #contatti form textarea {
+  .contatti form select,
+  .contatti form input,
+  .contatti form textarea {
     width: 60%;
   }
 
-  #contatti button{
+  .contatti button{
     width: 30%;
   }
 

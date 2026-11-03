@@ -11,6 +11,7 @@
 
 
   <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+  <script type="module" src="assets/js/script.js"></script>
 </head>
 
 <body>
@@ -216,14 +217,14 @@
     </section>
 
     <!-- sezione contattami -->
-    <section id="contatti">
+    <section class="contatti">
       <h2>Contattami</h2>
       <p>
         Compila il form per scrivermi. Rispondo entro 24 ore nei giorni
         lavorativi.
       </p>
       
-            <button type="click">Scrivimi</button>
+            <button type="click" id="text-me-btn">Scrivimi</button>
       
 
       <div class="overlay">
@@ -233,6 +234,7 @@
             Compila il form per scrivermi. Rispondo entro 24 ore nei giorni
             lavorativi.
           </p>
+          <button type="click" aria-label="closure-modal-button" id="closeModalBtn">X</button>
           <form>
             <div>
               <label for="nameField">Nome:</label>
