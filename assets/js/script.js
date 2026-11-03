@@ -38,12 +38,11 @@ myForm.addEventListener('submit',(e)=>{
   contactRequest.reason = contactReason.value;
   contactRequest.appointment = contactDate.value;
   contactRequest.accept = acceptTerms.checked;
+  contactRequest.message=contactMessage.value;
   overlay.style.display='none';
   contactTitle.textContent =`Ciao ${contactRequest.name}`;
-  contactPar.textContent= `Verrai contattato in data ${contactRequest.appointment} all'indirizzo email : ${contactRequest.email}`;
+  contactPar.textContent= `Verrai contattato in data ${contactRequest.appointment} all'indirizzo email : ${contactRequest.email} ti ringrazio nel frattempo per il tuo messaggio : ${contactRequest.message}`;
   myForm.reset();
-
-
 })
 
 
